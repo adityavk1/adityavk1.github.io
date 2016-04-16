@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>SuperWeb</title>
+		<link rel="stylesheet" type="text/css" href="styles/global.css" />
+		<script type="text/javascript">
+			function updateLink(e){
+				var old = document.getElementsByClassName("selected");
+				old[0].setAttribute("class","unselected");
+				e.setAttribute("class", "selected");
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<div id="header">
+			<div class="logo"><img src="images/title.png" height=50px  /></div>
+        </div>
+        
+        <div id="marquee">
+        	<marquee behavior="scroll" scrollamount="10">
+            	This website is under development.
+				*NOTE: Refreshing the screen resets unsaved data.*
+            </marquee>
+        </div>
+
+		<div id="container">
+			<div class="menubar">
+				<ul id="links">
+
+					<li><a href="home.html" target="subpage" id="home" class="selected" onClick="updateLink(this)">Home</a></li>
+					<li><a href="log.html" target="subpage" id="log" onClick="updateLink(this)">Update Log</a></li>
+					<li><a href="page1.html" target="subpage" onClick="updateLink(this)">Page 1</a></li>
+					<li><a href="page2.html" target="subpage" onClick="updateLink(this)">Page 2</a></li>
+					<li><a href="page3.html" target="subpage" onClick="updateLink(this)">Page 3</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<iframe name="subpage" src="home.html" frameborder="0" name="topFrame" scrolling="YES" noresize></iframe>
+			</div>
+		</div>
+		<div id="base">
+			<div class="compatibility">
+					<img src="images/Google-Chrome-icon.png" height=40px />
+				<p>
+					This website is optimized for </p>
+			</div>
+		</div>
+	</body>
+</html>
