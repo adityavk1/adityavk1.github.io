@@ -14,7 +14,7 @@ a {
 	text-decoration: none;
 }
 
-div#header {
+#header {
 	width: 100%;
 	height: 50px;
 	background-color: #303F9F;
@@ -22,7 +22,7 @@ div#header {
 	overflow: auto;
 }
 
-div#marquee {
+#marquee {
 	width: 100%;
 	height: 25px;
 	background-color: #B6B6B6;
@@ -34,43 +34,51 @@ div#marquee {
 	border-bottom: 1px solid #0A0A0A;
 }
 
-.logo {
+#header .logo {
 	margin-left: 5px;
 }
 
-div#container {
+#container {
 	width: 100%;
 	margin: 0 auto;
 }
 
-.menubar {
+#container .menubar {
 	width: 250px;
 	height: calc(100% - 125px);
 	background-color: #171717;
 	float:left;
 }
 
-ul#links a {
+#links img {
+	vertical-align: middle;
+}
+
+#links span {
+	vertical-align: middle;
+}
+
+#links a {
 	color: #ccc;
 	display: block;
 	padding: 10px;
-	font-size: 0.8em;
+	font-size: .95em;
 	border-bottom: 1px solid #0A0A0A;
 	transition: 0.2s;
 }
 
-ul#links li a:hover {
+#links a:hover {
 	background-color: #030303;
 	color: #fff;
 	padding-left: 30px;
 }
 
-ul#links a.selected {
+#links .selected {
 	background-color: #030303;
 	color: #fff;
 }
 
-.content {
+#container .content {
 	width: auto;
 	margin-left: 250px;
 	height: calc(100% - 125px);
@@ -78,35 +86,30 @@ ul#links a.selected {
 	padding: 15px;
 }
 
-.content p {
-	color: #424242;
-	font-size: 0.73em;
-}
-
-iframe {
+#container iframe {
 	height: 100%;
 	width: 100%;
 }
 
-div#base {
+#base {
 	background-color: #212121;
 	height: 50px;
 }
 
-.valid {
+#base .valid {
 	float: left;
 	margin-top: 10px;
 	margin-left: 5px;
 }
 
-.compatibility p {
+#base .compatibility p {
 	color: #fff;
 	float: right;
 	margin-top: 15px;
 	margin-right: 5px;
 }
 
-.compatibility img {
+#base .compatibility img {
 	float: right;
 	margin-top: 5px;
 	margin-right: 5px;
