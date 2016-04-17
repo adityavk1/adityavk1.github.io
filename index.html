@@ -1,7 +1,9 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<title>SuperWeb</title>
-		<link rel="stylesheet" type="text/css" href="styles/global.css" />
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
 		<script type="text/javascript">
 			function updateLink(e){
 				var old = document.getElementsByClassName("selected");
@@ -12,38 +14,37 @@
 	</head>
 
 	<body>
-
 		<div id="header">
-			<div class="logo"><img src="images/title.png" height=50px  /></div>
-        </div>
-        
-        <div id="marquee">
-        	<marquee behavior="scroll" scrollamount="10">
-            	This website is under development.
-				*NOTE: Refreshing the screen resets unsaved data.*
-            </marquee>
-        </div>
+			<div class="logo"><img src="images/title.png" height="50" alt="SuperWeb"></div>
+		</div>
+
+		<div id="marquee">
+			This website is under development. *NOTE: Refreshing the screen resets unsaved data.*
+		</div>
 
 		<div id="container">
 			<div class="menubar">
 				<ul id="links">
-
-					<li><a href="home.html" target="subpage" id="home" class="selected" onClick="updateLink(this)">Home</a></li>
-					<li><a href="log.html" target="subpage" id="log" onClick="updateLink(this)">Update Log</a></li>
-					<li><a href="page1.html" target="subpage" onClick="updateLink(this)">Page 1</a></li>
-					<li><a href="page2.html" target="subpage" onClick="updateLink(this)">Page 2</a></li>
-					<li><a href="page3.html" target="subpage" onClick="updateLink(this)">Page 3</a></li>
+  					<li><a href="home.html" target="subpage" id="home" class="selected" onclick="updateLink(this)">Home</a></li>
+  					<li><a href="log.html" target="subpage" id="log" onclick="updateLink(this)">Update Log</a></li>
+  					<li><a href="page1.html" target="subpage" onclick="updateLink(this)">Page 1</a></li>
+  					<li><a href="page2.html" target="subpage" onclick="updateLink(this)">Page 2</a></li>
+					<li><a href="page3.html" target="subpage" onclick="updateLink(this)">Page 3</a></li>
 				</ul>
 			</div>
-			<div class="content">
-				<iframe name="subpage" src="home.html" frameborder="0" name="topFrame" scrolling="YES" noresize></iframe>
-			</div>
+
+			<div class="content"> <iframe src="home.html" name="subpage" frameborder="0" scrolling="yes"></iframe></div>
 		</div>
+
 		<div id="base">
+			<div class="valid">
+				<img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="30" width="88">
+				<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS" height="30" width="88">
+			</div>
 			<div class="compatibility">
-					<img src="images/Google-Chrome-icon.png" height=40px />
-				<p>
-					This website is optimized for </p>
+				<img src="images/Google-Chrome-icon.png" height="40" alt="Google Chrome">
+				<p> This website is optimized for </p>
+				
 			</div>
 		</div>
 	</body>

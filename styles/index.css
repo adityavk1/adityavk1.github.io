@@ -35,7 +35,6 @@ div#marquee {
 }
 
 .logo {
-	float: center;
 	margin-left: 5px;
 }
 
@@ -57,9 +56,6 @@ ul#links a {
 	padding: 10px;
 	font-size: 0.8em;
 	border-bottom: 1px solid #0A0A0A;
-	-webkit-transition: 0.2s;
-	-moz-transition: 0.2s;
-	-o-transition: 0.2s;
 	transition: 0.2s;
 }
 
@@ -97,16 +93,21 @@ div#base {
 	height: 50px;
 }
 
+.valid {
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
 .compatibility p {
-	display: block;
 	color: #fff;
 	float: right;
-	padding-top: 15px;
-	padding-right: 15px;
+	margin-top: 15px;
+	margin-right: 5px;
 }
 
 .compatibility img {
-	padding-top: 10px;
-	padding-right: 15px;
 	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
 }
