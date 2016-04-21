@@ -7,3 +7,4 @@ The current skills learned include the following:
   -CSS
   -Git
   -Javascript
+  -VBA in PowerPoint
