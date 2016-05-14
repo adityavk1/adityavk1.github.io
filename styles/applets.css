@@ -14,38 +14,46 @@ a {
 	color: #727272;
 }
 
-body::-webkit-scrollbar {
-	width: 10px;
-}
- 
-body::-webkit-scrollbar-thumb {
-	background: #666;
-	border-radius: 10px;
-}
-
-body::-webkit-scrollbar-track {
-	border-radius: 10px;
-}
-
-.box {
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
 	margin-top: 15px;
+	text-align: center;
 }
 
-.box-top {
+th {
 	color: #FFFFFF;
 	text-shadow: 0px 1px #212121;
 	background-color: #448AFF;
 	padding: 5px;
 	padding-left: 15px;
 	font-weight: 300;
+	border: 1px solid black;
+	padding: 10px;
 }
 
-.box-panel {
-	padding: 15px;
+th#name {
+	width: 25%;
+}
+
+th#description {
+	width: 50%;
+}
+
+th#code {
+	width: 25%;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr:nth-child(even){
 	background-color: #FFFFFF;
-	color: #111;
 }
 
-ul {
-	padding-left: 15px;
+tr:nth-child(odd){
+	background-color: #EEEEEE;
 }
