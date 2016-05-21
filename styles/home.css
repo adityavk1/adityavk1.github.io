@@ -9,3 +9,15 @@
 body {
 	font-family: 'Open Sans';
 }
+
+.title{
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    text-align: center;
+}

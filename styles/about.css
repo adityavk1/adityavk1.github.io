@@ -17,3 +17,16 @@ a {
 ul {
 	padding-left: 45px;
 }
+
+.image {
+    text-align: center;
+}
+
+img {
+    border: 1px solid black;
+    width:20%;
+}
+
+.image p {
+    font-size: .9em;
+}
