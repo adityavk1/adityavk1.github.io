@@ -114,3 +114,18 @@ a {
 	margin-top: 5px;
 	margin-right: 5px;
 }
+
+iframe::-webkit-scrollbar {
+	background: #C5CAE9;
+	width: 10px;
+}
+ 
+iframe::-webkit-scrollbar-thumb {
+	background: #666;
+	border-radius: 10px;
+}
+
+iframe::-webkit-scrollbar-track {
+	background: #C5CAE9;
+	border-radius: 10px;
+}

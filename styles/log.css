@@ -14,19 +14,6 @@ a {
 	color: #727272;
 }
 
-body::-webkit-scrollbar {
-	width: 10px;
-}
- 
-body::-webkit-scrollbar-thumb {
-	background: #666;
-	border-radius: 10px;
-}
-
-body::-webkit-scrollbar-track {
-	border-radius: 10px;
-}
-
 .box {
 	margin-top: 15px;
 }
