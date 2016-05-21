@@ -8,3 +8,4 @@ The current skills learned include the following:
   -Git
   -Javascript
   -VBA in PowerPoint
+  -Bootstrap
