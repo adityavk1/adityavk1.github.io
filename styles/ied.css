@@ -11,18 +11,29 @@ body {
     background: #C5CAE9 !important;
 }
 
+p {
+    font-weight: 400 !important;
+    color: #000 !important;
+    font-size: 1.2em;
+    color: #000 !important;
+}
+
+a {
+	color: #727272 !important;
+    text-decoration: underline !important;
+}
+
 #title {
     margin: auto;
-    font-family: 'Open Sans' !important;
     font-weight: 700 !important;
     color: #000 !important;
     font-size: 2.3em !important;
 }
 
 #carousel-example-generic{
-    height: calc(100% - 100px) !important;
-    margin-left: 7% !important;
-    margin-right: 7% !important;
+    height: 500px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
 }
 
 img {
